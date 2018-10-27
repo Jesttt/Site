@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+body {
+    background-image: url("http://hdqwalls.com/wallpapers/new-york-city-view-from-new-jersey-4k-at-night-uo.jpg");
+    font-family: sans-serif;
+    margin: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 0;
+}
+
+nav {
+    border-bottom: solid 2px #F28F10;
+    text-align: right
+}
+
+nav div {
+    display: inline-block;
+}
+
+nav ul {
+    display: inline-block;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    padding: 12px 30px;
+    position: relative;
+    /* transition: all 0.2s ease; */
+}
+
+nav a {
+    text-decoration: none;
+    color: rgba(255, 255, 250, 0.9);
+    font-weight: bold;
+}
+
+li:hover {
+    background-color: #F28F10;
+}
+
+li:hover a {
+    color: black;
+}
+
+h1 {
+    color: rgba(255, 255, 250, 0.9);
+    font-family: 'Nunito', sans-serif;
+    text-shadow: 2px 4px 3px rgb(82, 82, 82, 0.2);
+    width: 100%;
+    text-align: center;
+    font-size: 200px;
+    font-weight: 100;
+}
+
+@media (max-width: 800px) {
+    h1 {
+        font-size: 100px;
+    }
+}
+
+.orange {
+    color: #F28F10;
+}
+
+
+/* 
+h1 {
+    margin:0px;
+    
+    }
+
+
+
+.fadein {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+
+
+
+ul {
+    border-radius: 0px 0px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: 1;
+}
+
+
+
+li {
+    float: right;
+    font-family: sans-serif;
+}
+
+
+
+li2 {
+    
+    float: left;
+    font-family: sans-serif;
+}
+
+li a {
+    display: block;
+    padding: 16px 36px;
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+
+li a:hover {
+    background-color: #F28F10;
+    color: black;
+}
+    
+li a2 {
+    float: left;
+    display: inline-block;
+    padding: 14px 36px;
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: left;
+}
+    
+    
+
+
+
+
+
+.logbox {
+    
+    padding: 2px 2px;
+    font-family: sans-serif;
+    
+    
+    
+    
+    
+}
+
+    
+.subbutton {
+    
+    padding: 2px 2px;
+    font-family: sans-serif;
+    
+    
+    
+    
+}
+
+
+.list2 {
+
+
+
+
+}
+
+    
+    
+    
+
+    
+    
+
+    
+
+
+
+ */
